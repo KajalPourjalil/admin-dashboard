@@ -1,12 +1,11 @@
-import { useState } from 'react'
+import React from 'react';
+import Login from './features/identity/components/login'
 
 
 function App() {
- 
-
   return (
-    <p>پلتفرم اموزش آنلاین</p>
+    <Login />
   )
 }
 
-export default App
+export default App;
